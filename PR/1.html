@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html>
+    <style>
+        #head_name{
+            text-align:center;
+            font-size: 30px;
+            border-bottom: gray 3px solid;
+            padding: 10px;
+            margin: 0;
+            background-color:rgb(237, 222, 245)
+        }
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        #list{
+            text-align: left;
+            font-size: 25px;
+            border-bottom: black thin dotted;
+            padding: 0;
+            margin: 0;
+        }
+        #grid{
+            display:grid;
+            grid-template-columns: 1fr 6fr;
+        }
+        #menu{
+            background-color: rgb(224, 226, 226);
+            margin:0;
+            padding: 0;
+            font-size: 14px;
+        }
+        #whole_contents{
+            background-color:rgb(253, 250, 238);
+        }
+        #content{
+            font-size: 15px;
+        }
+    </style>
+    <head>
+        <title>WEB1 - HTML</title>
+        <meta charset = "utf-8">
+        <script src = "Color.js"></script>
+    </head>
+    <body>
+        <div id="head_name"><h1><a href = "index.html">WEB</a></h1>
+            <input type="button" value="night" onclick="
+            nightDayHandler(this);"></div>
+        <div id = "grid">
+            <div id="menu">
+                <ol>
+                    <h2>menu</h2>
+                    <li><h3><a href = "1.html">1. HTML</a></h3></li>
+                    <li><h3><a href = "2.html">2. CSS</a></h3></li>
+                    <li><h3><a href = "3.html">3. JavaScript</a></h3></li>
+                </ol>
+            </div>
+            <div id = "whole_contents">
+                <ol>
+                    <div id = "list"><li><a href = "1.html">HTML
+                        <div id = "content">
+                        <h3>WEB이란 무엇인가?</h3>
+                        <p>creating web pages and.....<p>
+    
+                    </div></a></div></li>
+                    <div id = "list"><li><a href = "2.html">CSS
+                        <div id = "content">
+                        <h3>CSS란 무엇인가?</h3>
+                        <p>creating web pages and......</p>
+                    </div></a></li></div>
+                    <div id = "list"><li><a href = "3.html">JavaScript
+                        <div id = "content">
+                        <h3>javascript란 무엇인가?</h3>
+                        <p>creating web pages and......</p>
+                    </div></a></li></div>
+                </ol>
+            </div>
+        </div>
+    </body>
+</html>
