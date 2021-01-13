@@ -6,15 +6,8 @@
     margin: 0;
     background-color:rgb(237, 222, 245)
 }
-h2{
-    color: black;
-}
-h3{
-    color: black;
-}
 body {
     margin: 0;
-    padding: 0;
 }
 #list{
     text-align: left;
@@ -35,6 +28,7 @@ body {
 }
 #whole_contents{
     background-color:rgb(253, 250, 238);
+    padding: 10px;
 }
 #content{
     font-size: 15px;
