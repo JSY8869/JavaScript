@@ -71,6 +71,6 @@
 ### [EX33](EX33.html)
 ## 34장
 - 파일 분할
-### [EX34](Color.js)
+### [EX34](EX34/Color.js)
 ## 35장
 - jQuery
